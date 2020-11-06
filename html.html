@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--El DOCTYPE no es obligatorio, pero sí muy necesario
+No es obligatorio, pero es importante indicar el idioma principal de una página web-->
+
+<html lang="es">
+<head>
+    <!--Conviene indicar el juego de caracteres empleado-->
+    <meta charset="utf-8" />
+    <title>World_Wide_Web</title>
+</head>
+
+<body>
+    <h1>World_Wide_Web</h1>
+
+    <!--Si se emplea correctamente el juego de caracteres, no es necesario emplear las entidades HTML como -->
+
+    <p> En informática, la <strong> World Wide Web (WWW) </strong> o <em> Red informática mundial comúnmente conocida
+            como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y
+            accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que
+            pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas
+            usando
+            hiperenlaces.
+    </p>
+
+
+
+    <h2>Los tres pilares de la Web</h2>
+
+    <p>
+        <a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>
+
+        es considerado el padre de la Web
+        porque desarrolló los tres elementos básicos para el funcionamiento de la
+        <a href="http://es.wikipedia.org/wiki/World_Wide_Web">web>/a>
+    </p>
+
+    <h3>Pilarea fundamentales de Tim Berners-Lee</h3>
+    <ul>
+        <li>HTML</li>
+        <li>HTTP</li>
+        <li>URL</li>
+
+    </ul>
+
+
+    <ul>
+        <li><strong>Nombre completo</strong> :Bruce Wayne</li>
+        <li><strong>Fecha de nacimiento</strong> : 1/5/1939</li>
+        <li><strong>Lugar de nacimiento</strong> : Gotham City</li>
+
+    </ul>
+    <!-- las etiquetas siempre se tienen que cerrar-->
+
+    <h2>Contenido</h2>
+
+
+    <ol>
+        <li>Principales protocolos</li>
+        <li>Formas de conectarse</li>
+    </ol>
+
+
+    <h3>1. Principales protocolos</h3>
+    <ul>
+        <li>Transmisión de ficheros:
+            <ul>
+                <li>FTP</li>
+            </ul>
+        </li>
+        <li>Correo electrónico:
+            <ul>
+                <li>IMAP</li>
+                <li>POP</li>
+                <li>SMTP</li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+
+
+    <h3>Imagenes</h3>
+    <img src="imagenes/32.jpeg">
+
+
+    <h3>Tablas</h3>
+    <table>
+        <tr>
+            <th>Categoria</th>
+            <th>Etiquetas</th>
+        </tr>
+        <tr>
+            <th>Formulario</th>
+            <td>form</td>
+        </tr>
+        <tr>
+            <th>Formulario</th>
+            <td>button</td>
+        </tr>
+        <tr>
+            <th>Formulario</th>
+            <td>input</td>
+        </tr>
+        <tr>
+            <th>Formulario</th>
+            <td>select</td>
+        </tr>
+        <tr>
+            <th>Formulario</th>
+            <td>textarea</td>
+        </tr>
+
+        <tr>
+            <th>Tabla</th>
+            <td>table</td>
+        </tr>
+        <tr>
+            <th>Tabla</th>
+            <td>TR</td>
+            
+            
+            
+        </tr>
+        <tr>
+            <th>Tabla</th>
+            <td>TR</td>
+        </tr>
+        <tr>
+            <th>Tabla</th>
+            <td>TH</td>
+        </tr>
+        <tr>
+            <th>Tabla</th>
+            <td>TD</td>
+        </tr>
+        <tr>
+            <th>Tabla</th>
+            <td>Caption</td>
+        </tr>
+    </table>
+
+    <h4>Videos</h4>
+    <video width="320" height="240">
+        <source src="media/Binomio_de_oro_Como_duele_el_frio.mp4" type="video/mp4">
+    </video>
+    <video width="320" height="240" controls>
+        <source src="media/Binomio_de_oro_Como_duele_el_frio.mp4" type="video/mp4">
+    </video>
+    <h4>Audio</h4>
+    <audio controls>
+        <source src="media/bendita_la_luz.mp3">
+    </audio>
+    
+    <h3>Formularios</h3>
+    <form action="" method="POST">
+        <p>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" maxlength="50"/>
+
+        </p>
+        <p>
+            <label>Apellido</label>
+            <input type="text" name="apellidos" id="apellidos" maxlength="50"/>
+            
+        </p>
+        <p>
+            Sexo: <br> <input type="radio" name="sexo" id="sexo.h" value="h" checked/>
+            <label>Hombre</label>
+            <input type="radio" name="sexo" id="sexo.m" value="m" />
+            <label>Mujer</label>
+        </p>
+        <p>
+            <label>Correo Electronico</label>
+            <input type="email" name="correo" id=""correo maslength="100"/>
+        </p>
+        <p>
+            <label>Poblacion</label>
+            <select name="poblacion" id="poblacion">
+                <option>Loja</option>}
+                <option>Manta</option>
+                <option>Portoviejo</option>
+                <option>La Plata</option>
+            </select>
+        </p>
+        <p>
+            <label>Descrpcion</label>
+            <textarea name="Descripcion" id="descripcion" rows="6" cols="60" />
+        </p>
+        <p>
+            <input type="checkbox" name="info" id="info" checked/>
+            <label>Desea recibir informacion sobre novedades y ofertas</label>
+
+        </p>
+        <p>
+            <input type="checkbox" name="condiciones" id="condiciones"/>
+            <label>Desea recibir informacion sobre novedades y ofertas</label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            
+        </p>
+    </form>
+    
+
+    
+</body>
+
+</html>
